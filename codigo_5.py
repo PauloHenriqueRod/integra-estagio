@@ -15,4 +15,6 @@ def reverte_string(frase: str) -> str:
 
 while True:
     frase = input('Frase que deseja revertar [digite "sair" para fechar]: ')
+    if frase == 'sair':
+        break
     print(reverte_string(frase=frase))
